@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>赤ちゃんイベントカレンダー</title>
+</head>
+<body>
+   <h1>赤ちゃんイベント計算</h1>
+
+   <img src="/static/images/family_illust.png.png" alt="家族イラスト" class="family-img">
+
+    <form action="/result" method="POST">
+        <label>性別：</label><br>
+        <input type="radio" name="gender" value="boy" required> 男の子
+        <input type="radio" name="gender" value="girl" required> 女の子
+        <br><br>
+
+        <label>生年月日：</label><br>
+        <input type="date" name="birthday" required>
+        <br><br>
+
+        <button type="submit">計算する</button>
+    </form>
+</body>
+</html>

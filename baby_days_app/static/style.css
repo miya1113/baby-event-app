@@ -1,0 +1,75 @@
+body {
+    font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+    background-color: #fff7f7;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff8fa3;
+    margin-bottom: 0%;
+}
+
+.family-img {
+    display: block;
+    margin: 0 auto; 
+    width: 250px; 
+}
+
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(255, 150, 150, 0.2);
+}
+
+label {
+    font-size: 18px;
+    color: #555;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ffb6c1;
+}
+
+button {
+    background-color: #ff8fa3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6f8c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(255, 150, 150, 0.2);
+    font-size: 16px;
+}
+
+li small {
+    color: #888;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}

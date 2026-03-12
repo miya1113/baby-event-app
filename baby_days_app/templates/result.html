@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="UTF-8">
+    <title>イベント結果</title>
+</head>
+<body>
+    <h1>イベント日一覧</h1>
+
+  <ul>
+    {% for name, date in events.items() %}
+        <li>
+            <strong>{{ name }}</strong><br>
+            日付：{{ date.strftime("%Y年%m月%d日") }}<br>
+            <small>{{ details[name] }}</small>
+        </li>
+    {% endfor %}
+</ul>
+
+    <a href="/">戻る</a>
+</body>
+</html>
